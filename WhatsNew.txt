@@ -1,0 +1,10 @@
+=== What's new in version 0.4.12 ===
+
+You can use module() to define classes.
+Just start your class file with:
+
+    Object:subclass(...)
+    module(...)
+
+Note: beware of package.seeall, it would include _G in your class.
+See testLoadAClassFromFile(), and file SomeClass.lua for details.

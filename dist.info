@@ -1,0 +1,14 @@
+--- This file is part of LuaDist project
+
+name = "objectlua"
+version = "0.4.12"
+
+desc = "This is an implementation of a class-oriented Lua module, coded entirely in Lua."
+url = "http://code.google.com/p/objectlua/"
+author = "Sebastien Rocca-Serra"
+maintainer = "Peter Drahoš"
+license = "MIT"
+
+depends = {
+    "lua ~> 5.1"
+}
