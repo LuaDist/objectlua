@@ -1,0 +1,37 @@
+type = "x86"
+arch = "Windows"
+author = "Sebastien Rocca-Serra"
+depends = {
+[[lua ~> 5.1]],
+}
+
+desc = "This is an implementation of a class-oriented Lua module, coded entirely in Lua."
+version = "0.4.12"
+maintainer = "Peter Drahoš"
+files = {
+Runtime = {
+[[lib\lua\objectlua\bootstrap.lua]],
+[[lib\lua\objectlua\Class.lua]],
+[[lib\lua\objectlua\Object.lua]],
+[[lib\lua\objectlua\Prototype.lua]],
+}
+,
+Data = {
+[[share\objectlua\Readme.txt]],
+[[share\objectlua\License.txt]],
+[[share\objectlua\WhatsNew.txt]],
+}
+,
+Test = {
+[[share\objectlua\test\\SomeClass.lua]],
+[[share\objectlua\test\\TestObject.lua]],
+[[share\objectlua\test\\TestObjectImplementation.lua]],
+[[share\objectlua\test\\TestObjectLua.lua]],
+[[share\objectlua\test\\TestPrototype.lua]],
+}
+,
+}
+
+url = "http://code.google.com/p/objectlua/"
+name = "objectlua"
+license = "MIT"
